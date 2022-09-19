@@ -1,0 +1,26 @@
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+!.yarn/cache
+#.pnp.*
+
+node_modules/
+
+# die config.js Datei in Root Ordner ausschliessen
+config.js
+
+# alles im dist Ordner ausschliessen
+dist/
+
+# alles im src/assets/scripts Ordner ausschliessen
+src/assets/scripts/
+
+# alle css Dateien im src/assets/css ausschliessen
+src/assets/css/
+
