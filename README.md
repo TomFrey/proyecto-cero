@@ -1,5 +1,19 @@
 # proyecto-cero
 
+## Neues Projekt aufsetzen
+- Neues Repository auf GitHub erstellen
+- Neuen Ordner unter Projekte/proyectoXyz erstellen
+- Proyecto-cero zip downloaden von GitHub und im Order Projekte/proyectXyz entzippen
+- Entzippter Ordner in  proyecto-xyz umbenennen
+
+- In der Konsole in den Ordner Projekte/proyectoXyz/proyecto-xyz wechseln und:
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TomFrey/proyecto-xyz.git
+git push -u origin main
+
 
 ## Projekt builden
 Wenn ein neues Package mit yarn hinzugefügt wird (yarn add --dev <package>), 
